@@ -1,22 +1,19 @@
 # ConversorDec2Bin
  
-Este repositoiro contiene funciones en python que permiten realizar conversiones entre
+Este repositorio contiene funciones en python que permiten realizar conversiones entre
 números binarios, decimales y hexadecimales.
 
-## Función dec2bin
+Cada fichero tiene una función y un programa main que la prueba.
+
+## dec2bin.py
 
 Convierte un número decimal positivo o negativo a binario. 
-El programa pide el número decimal a ser convertido y el número de bits que se
-quiere usar para representar el número.
+El programa pide el número decimal a ser convertido y el número de bits mínimo que se
+quiere usar para representar el número. Los números negativos se representan en complemento a 2.
 
-Los números negativos se representan en complemento a 2.
-
-Se asume que el número de bits que se da es el suficiente para poder
-representar el número decimal.
-
-## Función bin2dec
+## bin2dec.py
 Convierte un número binario en complemento a 2 en decimal. 
 
-## Función bin2hex
+## bin2hex.py
 Convierte un número binario positivo a hexadecimal. 
 
