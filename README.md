@@ -16,4 +16,4 @@ Convierte un número binario en complemento a 2 en decimal.
 
 ## bin2hex.py
 Convierte un número binario positivo a hexadecimal. 
-
+## MODFICACION TEST FORK LJTM
